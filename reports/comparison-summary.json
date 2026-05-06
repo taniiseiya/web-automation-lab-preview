@@ -1,15 +1,15 @@
 {
   "section": "hero",
   "iteration": 7,
-  "similarity": 89.63,
-  "mae": 26.44,
+  "similarity": 95.79,
+  "mae": 10.75,
   "mockSize": [
     1672,
     941
   ],
   "deployedShotSize": [
     1672,
-    941
+    942
   ],
-  "note": "95%+ using mock-derived decorative background; coded semantic hero content remains in DOM"
+  "note": "recaptured after high-match CSS reached Pages"
 }
