@@ -1,0 +1,14 @@
+{
+  "section": "hero",
+  "similarity": 87.76,
+  "mae": 31.21,
+  "mockSize": [
+    1672,
+    941
+  ],
+  "deployedShotSize": [
+    1672,
+    941
+  ],
+  "note": "verified unique clean textless hero background; no preview overlay"
+}
