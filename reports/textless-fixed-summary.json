@@ -1,0 +1,13 @@
+{
+  "section": "hero",
+  "mode": "textless-background-fixed-local-screenshot",
+  "similarity": 90.3,
+  "mae": 24.73,
+  "changedPixels": {
+    ">10": 39.88,
+    ">25": 22.07,
+    ">50": 12.62
+  },
+  "background": "assets/hero-bg-absolutely-textless-1778080468.png",
+  "judgement": "背景側に文字・UIが焼き込まれた素材をやめ、文字なし素材に差し替え。文字被りは解消。"
+}
