@@ -98,28 +98,57 @@ a{text-decoration:none;color:inherit}img{display:block;max-width:100%;height:aut
 .footer-bottom small{font-size:11px!important}
 @media(max-width:900px){.stats-band{min-height:auto!important;padding:72px 0 82px!important}.stats-band h2{font-size:42px!important}.stats-grid{max-width:100%!important;grid-template-columns:1fr!important;gap:22px!important}.stats-grid>div{min-height:auto!important;padding:36px 24px 30px!important}.stats-grid img{width:82px!important;height:82px!important}.stats-grid strong{font-size:76px!important}.bottom-cta{min-height:auto!important;padding:72px 0 58px!important}.bottom-cta h2{font-size:34px!important}.bottom-cta .btn-primary{width:100%!important;max-width:340px!important;height:64px!important;font-size:17px!important}}
 
-/* QA fix 7: Image 2.0 section assets for the two remaining hard dark sections */
+/* Strict coded QA pass: match mock canvas heights without image-only sections */
 @media(min-width:901px){
-  .stats-band{
-    height:1067px!important;
-    min-height:1067px!important;
-    padding:0!important;
-    background:#010815 url("assets/section-03-full-mock-asset.png") center center/100% 100% no-repeat!important;
-  }
-  .stats-band .stats-heading,
-  .stats-band .stats-grid{opacity:0!important;pointer-events:none!important}
-  .bottom-cta{
-    height:560px!important;
-    min-height:560px!important;
-    padding:0!important;
-    background:#010815 url("assets/section-06-full-mock-asset.png") center top/100% auto no-repeat!important;
-  }
-  .bottom-cta-inner{opacity:0!important;pointer-events:none!important;height:100%!important}
-  .site-footer{
-    height:450px!important;
-    padding:0!important;
-    background:#010815 url("assets/section-06-full-mock-asset.png") center bottom/100% auto no-repeat!important;
-  }
-  .site-footer .footer-main,
-  .site-footer .footer-bottom{opacity:0!important;pointer-events:none!important}
+  .site-header{height:92px!important}
+  .hero{height:994px!important}
+  .hero-copy{padding-top:92px!important;width:610px!important}
+  .hero h1{font-size:68px!important;line-height:1.28!important;margin-bottom:28px!important}
+  .hero-lead{font-size:21px!important;line-height:1.72!important;margin-bottom:38px!important}
+  .hero-badge{height:42px!important;font-size:18px!important;margin-bottom:34px!important}
+  .hero-visual{left:455px!important;top:138px!important;width:900px!important}
+
+  .worries,.services,.flow,.faq{height:1024px!important;min-height:1024px!important;padding:0!important;display:flex!important;align-items:center!important}
+  .worries .section-container,.services .section-container,.flow .section-container,.faq .section-container{width:100%!important}
+  .worries h2{margin-bottom:58px!important}
+  .services h2{margin-bottom:62px!important}
+  .flow h2{margin-bottom:62px!important}
+  .faq h2{margin-bottom:58px!important}
+
+  .services .service-card{min-height:430px!important;padding-top:52px!important}
+  .flow .flow-grid article{min-height:470px!important}
+  .faq .faq-list summary{min-height:128px!important}
+
+  .stats-band{height:1024px!important;min-height:1024px!important;padding:88px 0 0!important;display:block!important}
+  .stats-band .stats-heading{margin-bottom:50px!important}
+  .stats-grid>div{min-height:430px!important}
+
+  .bottom-cta{height:520px!important;min-height:520px!important;padding:82px 0 0!important}
+  .site-footer{height:504px!important;padding:58px 0 0!important}
+}
+
+/* Strict coded QA pass 2: restore top rhythm; do not center sections vertically */
+@media(min-width:901px){
+  .hero-copy{padding-top:72px!important;width:585px!important}
+  .hero h1{font-size:64px!important;line-height:1.30!important}
+  .hero-lead{font-size:20px!important;line-height:1.75!important}
+  .hero-visual{left:430px!important;top:158px!important;width:960px!important}
+
+  .worries,.services,.flow,.faq{height:1024px!important;min-height:1024px!important;display:block!important;align-items:initial!important}
+  .worries{padding:104px 0 0!important}
+  .services{padding:104px 0 0!important}
+  .flow{padding:98px 0 0!important}
+  .faq{padding:96px 0 0!important}
+
+  .problem-grid{max-width:1120px!important;margin:0 auto!important}
+  .service-grid{max-width:1120px!important;margin:0 auto!important}
+  .flow-grid{max-width:1180px!important;margin:0 auto!important}
+  .problem-card{min-height:460px!important;padding-top:58px!important}
+  .service-card{min-height:398px!important;padding-top:44px!important}
+  .service-card img{height:132px!important}.service-card:nth-child(3) img{height:146px!important}.service-card:nth-child(4) img{height:142px!important}
+  .flow .flow-grid article{min-height:445px!important;padding-top:38px!important}
+
+  .bottom-cta{padding-top:62px!important}
+  .bottom-cta h2{font-size:54px!important;line-height:1.24!important}
+  .site-footer{padding-top:48px!important}
 }
