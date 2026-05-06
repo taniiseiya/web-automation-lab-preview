@@ -1,8 +1,8 @@
 {
   "section": "hero",
   "iteration": 6,
-  "similarity": 87.69,
-  "mae": 31.39,
+  "similarity": 89.63,
+  "mae": 26.44,
   "mockSize": [
     1672,
     941
@@ -10,5 +10,6 @@
   "deployedShotSize": [
     1672,
     941
-  ]
+  ],
+  "note": "recaptured after Pages cache wait"
 }
