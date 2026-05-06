@@ -1,0 +1,18 @@
+{
+  "section": "hero",
+  "mode": "human-check-rebuild",
+  "similarity": 87.32,
+  "mae": 32.34,
+  "changedPixels": {
+    ">10": 52.35,
+    ">25": 30.93,
+    ">50": 18.98
+  },
+  "background": "assets/hero-bg-textless-humancheck-20260507.png",
+  "qa": "OK: no baked text/UI, no text overlap, PC/SP readable, no obvious weird artifacts",
+  "files": {
+    "pcPreview": "reports/preview-humancheck-pc.png",
+    "spPreview": "reports/preview-humancheck-sp.png",
+    "comparison": "reports/wan-deli-humancheck-comparison-pc.png"
+  }
+}
