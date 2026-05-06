@@ -1,0 +1,14 @@
+{
+  "section": "hero",
+  "similarity": 89.63,
+  "mae": 26.44,
+  "mockSize": [
+    1672,
+    941
+  ],
+  "deployedShotSize": [
+    1672,
+    941
+  ],
+  "note": "fixed: preview uses clean textless photo background; overlay only on comparison page"
+}
