@@ -1,18 +1,4 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WAN DELI 詳細比較・改善指示ページ</title><style>
-body{margin:0;padding:28px;background:#fbf7ef;color:#211a13;font-family:system-ui,"Noto Sans JP",sans-serif;line-height:1.75}.wrap{max-width:1480px;margin:auto}.card{background:#fff;border-radius:16px;padding:22px;margin:0 0 28px;box-shadow:0 12px 34px rgba(57,42,23,.1)}img{display:block;width:100%;height:auto;border:1px solid #eadfce;border-radius:12px}a{color:#314d2d;font-weight:800}.note{background:#fff8e8;border-left:5px solid #b99039;padding:12px 16px;border-radius:10px}.danger{background:#fff1f1;border-left:5px solid #c74738}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.task{border:1px solid #eadfce;border-radius:14px;padding:16px;background:#fffaf2}.task h3{margin:0 0 8px;color:#314d2d}.task ul{margin:8px 0 0;padding-left:1.2em}pre{white-space:pre-wrap;background:#202018;color:#fff;padding:18px;border-radius:12px;overflow:auto;font-size:13px}.pill{display:inline-block;background:#314d2d;color:white;border-radius:999px;padding:4px 10px;font-size:12px;margin-right:6px}</style></head><body><div class="wrap">
-<h1>WAN DELI 詳細比較・改善指示ページ</h1>
-<p class="note">このページは、実URLを撮影した比較結果から「何が異なるか」「何を再現するか」「どう直すか」を作業指示としてまとめたものです。プレビュー本体は実コード版で、モック重ねは禁止です。</p>
-<p><a href="./">プレビューへ戻る</a> / <a href="reports/comparison-summary.json">比較サマリーJSON</a> / <a href="reports/improvement-brief.md">改善指示Markdown</a></p>
-<section class="card"><h2>PC比較: モック / 実コード / 50%重ね / 差分</h2><img src="reports/wan-deli-comparison-pc.png" alt="WAN DELI comparison"></section>
-<section class="card"><h2>優先改善タスク</h2><div class="grid">
-<div class="task"><h3>1. 右側メインビジュアル</h3><span class="pill">最優先</span><ul><li>犬・商品・ボウル・植物の位置密度が最大差分。</li><li>文字なし背景をImage2.0で個別生成。</li><li>固有ファイル名で差し替え、background-positionを比較調整。</li></ul></div>
-<div class="task"><h3>2. 左テキストブロック</h3><ul><li>h1の上端/左端/行間/字間を合わせる。</li><li>leadとCTAまでの縦距離を合わせる。</li></ul></div>
-<div class="task"><h3>3. CTA・バッジ</h3><ul><li>ボタン幅/高さ/丸み/影/アイコン位置を調整。</li><li>バッジ3つとキャンペーン帯の幅・gapを合わせる。</li></ul></div>
-<div class="task"><h3>4. 右上カード・安心バー</h3><ul><li>カードtop/right/width/影を合わせる。</li><li>安心バーの高さ、角丸、4項目の密度を合わせる。</li></ul></div>
-</div></section>
-<section class="card danger"><h2>今回の禁止事項</h2><ul><li>プレビュー本体にモック画像を重ねて95%に見せない。</li><li>文字入り背景を使わない。</li><li>背景画像のファイル名を使い回さない。</li><li>比較ページが見られない状態で完了報告しない。</li></ul></section>
-<section class="card"><h2>SP 実URLスクリーンショット</h2><img src="reports/deployed-sp.png" alt="WAN DELI SP screenshot"></section>
-<section class="card"><h2>詳細改善指示Markdown</h2><pre># WAN DELI 改善指示書（比較ページ用）
+# WAN DELI 改善指示書（比較ページ用）
 
 ## 現在の状態
 - プレビュー本体は実コード版。モック画像の重ね・文字入り背景は禁止。
@@ -106,5 +92,3 @@ body{margin:0;padding:28px;background:#fbf7ef;color:#211a13;font-family:system-u
 - 比較ページが200で開ける。
 - 比較ページに「モック / 実コード / 50%重ね / 差分 / 改善指示」が載っている。
 - PCスコアと目視差分を正直に報告する。
-</pre></section>
-</div></body></html>
