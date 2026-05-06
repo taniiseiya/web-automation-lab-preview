@@ -1,14 +1,15 @@
 {
   "section": "hero",
-  "iteration": 2,
-  "similarity": 86.19,
-  "mae": 35.22,
+  "iteration": 3,
+  "similarity": 87.9,
+  "mae": 30.85,
   "mockSize": [
     1672,
     941
   ],
   "deployedShotSize": [
-    1440,
-    859
-  ]
+    1672,
+    941
+  ],
+  "note": "PC capture viewport matched to mock width"
 }
