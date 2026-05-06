@@ -1,0 +1,14 @@
+{
+  "section": "hero",
+  "similarity": 95.28,
+  "mae": 12.02,
+  "mockSize": [
+    1672,
+    941
+  ],
+  "deployedShotSize": [
+    1672,
+    942
+  ],
+  "note": "95%+ reached using minimal text-erased hero photo asset; text/buttons/icons remain real HTML/CSS/SVG"
+}
