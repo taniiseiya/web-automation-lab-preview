@@ -1,0 +1,17 @@
+{
+  "section": "hero",
+  "mode": "strictfix-overlay-humanqa",
+  "similarity": 90.17,
+  "mae": 25.06,
+  "changedPixels": {
+    ">10": 39.33,
+    ">25": 20.58,
+    ">50": 12.45
+  },
+  "qa": "OK: no fatal issues. Remaining differences: background crop/product details, card product thumbnail, spacing/transparency.",
+  "files": {
+    "pcPreview": "reports/strictfix-final-local-pc.png",
+    "spPreview": "reports/strictfix-final-local-sp.png",
+    "comparison": "reports/wan-deli-strictfix-overlay-comparison-pc.png"
+  }
+}
