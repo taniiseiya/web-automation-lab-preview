@@ -1,0 +1,14 @@
+{
+  "section": "hero",
+  "iteration": 4,
+  "similarity": 87.69,
+  "mae": 31.39,
+  "mockSize": [
+    1672,
+    941
+  ],
+  "deployedShotSize": [
+    1672,
+    941
+  ]
+}
