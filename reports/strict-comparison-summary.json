@@ -1,0 +1,24 @@
+{
+  "section": "hero",
+  "mode": "strict-existing-deployed-screenshot",
+  "similarity": 95.28,
+  "mae": 12.02,
+  "mockSize": [
+    1672,
+    941
+  ],
+  "deployedShotSize": [
+    1672,
+    941
+  ],
+  "changedPixels": {
+    ">10": 17.56,
+    ">25": 9.51,
+    ">50": 5.85
+  },
+  "judgement": "95%超。超厳しめに見ると残差は右側ヒーロー写真の犬・商品群・カード周辺と下部安心バーに集中。",
+  "files": {
+    "strictComparison": "reports/wan-deli-strict-comparison-pc.png",
+    "standardComparison": "reports/wan-deli-comparison-pc.png"
+  }
+}
