@@ -1,0 +1,93 @@
+[
+  {
+    "section": "00-fv",
+    "similarity": 62.91,
+    "mae": 94.57,
+    "mockSize": [
+      2048,
+      1152
+    ],
+    "codedShotSize": [
+      1440,
+      882
+    ]
+  },
+  {
+    "section": "01-problem",
+    "similarity": 90.43,
+    "mae": 24.41,
+    "mockSize": [
+      2048,
+      1152
+    ],
+    "codedShotSize": [
+      1440,
+      810
+    ]
+  },
+  {
+    "section": "02-service",
+    "similarity": 91.42,
+    "mae": 21.88,
+    "mockSize": [
+      2048,
+      1152
+    ],
+    "codedShotSize": [
+      1440,
+      810
+    ]
+  },
+  {
+    "section": "03-beforeafter",
+    "similarity": 85.39,
+    "mae": 37.25,
+    "mockSize": [
+      2048,
+      1152
+    ],
+    "codedShotSize": [
+      1440,
+      810
+    ]
+  },
+  {
+    "section": "04-flow",
+    "similarity": 93.26,
+    "mae": 17.19,
+    "mockSize": [
+      2048,
+      1152
+    ],
+    "codedShotSize": [
+      1440,
+      810
+    ]
+  },
+  {
+    "section": "05-faq",
+    "similarity": 91.18,
+    "mae": 22.49,
+    "mockSize": [
+      2048,
+      1152
+    ],
+    "codedShotSize": [
+      1440,
+      810
+    ]
+  },
+  {
+    "section": "06-contact",
+    "similarity": 83.0,
+    "mae": 43.36,
+    "mockSize": [
+      2048,
+      1152
+    ],
+    "codedShotSize": [
+      1440,
+      810
+    ]
+  }
+]
