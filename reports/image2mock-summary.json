@@ -1,0 +1,18 @@
+{
+  "section": "image2mock-full-fv",
+  "similarity": 89.71,
+  "mae": 26.25,
+  "changedPixels": {
+    ">10": 39.06,
+    ">25": 22.42,
+    ">50": 14.1
+  },
+  "gate": "FAIL",
+  "threshold": 95,
+  "qa": "uses Image2.0 mock-based reusable hero asset; no mock cutout header",
+  "files": {
+    "pcPreview": "reports/image2mock-final-local-pc.png",
+    "spPreview": "reports/image2mock-final-local-sp.png",
+    "comparison": "reports/image2mock-overlay-comparison-pc.png"
+  }
+}
