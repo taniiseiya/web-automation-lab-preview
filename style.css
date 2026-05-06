@@ -1,1 +1,12 @@
-*{box-sizing:border-box}html,body{margin:0;padding:0;background:#020713;overflow-x:hidden}body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Noto Sans JP",sans-serif}.mock-page{width:100%;background:#020713}.mock-section{width:100%;line-height:0;background:#020713}.mock-section img{display:block;width:100%;height:auto;margin:0 auto}.hero img{background:#020713}@media(max-width:700px){.mock-section{overflow:hidden}.mock-section img{width:180%;max-width:none;margin-left:50%;transform:translateX(-50%)}.hero img{width:190%}}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#020713;overflow-x:hidden}
+body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Noto Sans JP",sans-serif}
+.mock-page{width:100%;background:#020713}
+.mock-section{width:100%;line-height:0;background:#020713;text-align:center;overflow:hidden}
+.mock-section img{display:block;width:auto;max-width:100%;height:auto;margin:0 auto}
+.hero img{max-width:1448px}
+#worries img,#services img,#works img,#flow img,#faq img,#contact img{max-width:1536px}
+@media(max-width:700px){
+  .mock-section img{width:180%;max-width:none;margin-left:50%;transform:translateX(-50%)}
+  .hero img{width:190%;max-width:none}
+}
