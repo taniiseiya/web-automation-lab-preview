@@ -1,0 +1,93 @@
+[
+  {
+    "section": "00-fv",
+    "similarity": 85.54,
+    "mae": 36.87,
+    "mockSize": [
+      1448,
+      1086
+    ],
+    "deployedShotSize": [
+      1440,
+      1086
+    ]
+  },
+  {
+    "section": "01-problem",
+    "similarity": 94.05,
+    "mae": 15.17,
+    "mockSize": [
+      1536,
+      1024
+    ],
+    "deployedShotSize": [
+      1440,
+      1024
+    ]
+  },
+  {
+    "section": "02-service",
+    "similarity": 93.6,
+    "mae": 16.33,
+    "mockSize": [
+      1536,
+      1024
+    ],
+    "deployedShotSize": [
+      1440,
+      1024
+    ]
+  },
+  {
+    "section": "03-stats",
+    "similarity": 93.17,
+    "mae": 17.41,
+    "mockSize": [
+      1536,
+      1024
+    ],
+    "deployedShotSize": [
+      1440,
+      1024
+    ]
+  },
+  {
+    "section": "04-flow",
+    "similarity": 94.82,
+    "mae": 13.22,
+    "mockSize": [
+      1536,
+      1024
+    ],
+    "deployedShotSize": [
+      1440,
+      1024
+    ]
+  },
+  {
+    "section": "05-faq",
+    "similarity": 93.97,
+    "mae": 15.37,
+    "mockSize": [
+      1536,
+      1024
+    ],
+    "deployedShotSize": [
+      1440,
+      1024
+    ]
+  },
+  {
+    "section": "06-cta-footer",
+    "similarity": 92.25,
+    "mae": 19.76,
+    "mockSize": [
+      1536,
+      1024
+    ],
+    "deployedShotSize": [
+      1440,
+      1024
+    ]
+  }
+]
