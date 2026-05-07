@@ -1,0 +1,5 @@
+{
+  "strictSimilarity": 88.28,
+  "mae": 29.89,
+  "qa": "Header unchanged. FV overlay changed from rectangular white panel to radial/elliptical gradients so faint background remains visible on left."
+}
