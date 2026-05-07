@@ -1,0 +1,6 @@
+{
+  "strictSimilarity": 89.35,
+  "mae": 27.17,
+  "gate": "FAIL",
+  "note": "Best grid-selected PC FV values. Background image unchanged, no full-FV image, real HTML/CSS + Image2.0 assets. 95% not reached without changing assets/structure."
+}
