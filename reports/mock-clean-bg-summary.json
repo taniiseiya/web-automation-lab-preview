@@ -1,0 +1,5 @@
+{
+  "strictSimilarity": 86.5,
+  "mae": 34.43,
+  "qa": "Rebuilt hero by cleaning text/UI from the mock-referenced background, then layering subtle CSS gradient and real HTML UI. Product package label remains as part of product photo, not UI."
+}
