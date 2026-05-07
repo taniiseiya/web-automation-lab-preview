@@ -1,0 +1,5 @@
+{
+  "strictSimilarity": 88.8,
+  "mae": 28.55,
+  "qa": "Header unchanged. FV refined: subtle left background visible, CTA/badges/trust smaller, wide display background extends. Remaining: SP CTA/badges still more stacked than mock."
+}
