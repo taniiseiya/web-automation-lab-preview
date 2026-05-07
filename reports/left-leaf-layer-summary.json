@@ -1,0 +1,5 @@
+{
+  "strictSimilarity": 88.33,
+  "mae": 29.77,
+  "qa": "Header unchanged. Added actual subtle leaf/light background layer on left because original background asset had almost no left leaf texture."
+}
