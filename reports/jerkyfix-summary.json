@@ -1,0 +1,11 @@
+{
+  "strictSimilarity": 88.51,
+  "mae": 29.3,
+  "qa": "OK: Popular No.1 product photo whitespace improved; PC/SP no clipping/cart/trust issues",
+  "files": {
+    "pc": "reports/jerkyfix-pc.png",
+    "sp": "reports/jerkyfix-sp.png",
+    "cardCrop": "reports/jerkyfix-card-crop.png",
+    "comparison": "reports/jerkyfix-comparison-pc.png"
+  }
+}
