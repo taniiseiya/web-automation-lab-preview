@@ -1,0 +1,11 @@
+{
+  "strictSimilarity": 88.32,
+  "mae": 29.79,
+  "gate": "FAIL",
+  "note": "Restored usable HTML/CSS/Image2.0-material implementation. No full-FV screenshot plate. 95% not claimed; next improvements must preserve site usability.",
+  "files": {
+    "pc": "reports/practical-restored-pc.png",
+    "sp": "reports/practical-restored-sp.png",
+    "comparison": "reports/practical-restored-comparison-pc.png"
+  }
+}
