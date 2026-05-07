@@ -1,0 +1,16 @@
+{
+  "section": "comparison-table-improvement",
+  "similarity": 88.32,
+  "mae": 29.79,
+  "changedPixels": {
+    ">10": 44.58,
+    ">25": 28.51,
+    ">50": 17.41
+  },
+  "qa": "OK: no text overlap, no campaign clipping, cart visible PC/SP, trust bar visible PC/SP",
+  "files": {
+    "pcPreview": "reports/compare-improve-final10-pc.png",
+    "spPreview": "reports/compare-improve-final10-sp.png",
+    "comparison": "reports/compare-improve-overlay-comparison-pc.png"
+  }
+}
