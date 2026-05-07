@@ -1,0 +1,12 @@
+{
+  "strictSimilarity": 88.53,
+  "mae": 29.26,
+  "viewport": "1672x941",
+  "qa": "OK: stray cart removed, product photo added to Popular No.1 card, left background strengthened, PC/SP no text clipping or trust bar clipping",
+  "files": {
+    "pc": "reports/fix-product-left-pc.png",
+    "sp": "reports/fix-product-left-sp.png",
+    "comparison": "reports/latest-fixed-comparison-pc.png",
+    "productCrop": "reports/rank-product-photo-crop-check.png"
+  }
+}
