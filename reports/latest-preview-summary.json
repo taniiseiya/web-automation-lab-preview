@@ -1,0 +1,12 @@
+{
+  "strictSimilarity": 88.32,
+  "mae": 29.79,
+  "viewport": "1672x941",
+  "note": "Latest usable HTML/CSS + Image2.0 material preview. Desktop max-width locked at 1672px to reduce dual-display stretching.",
+  "files": {
+    "pc1672": "reports/latest-preview-pc-1672.png",
+    "pc1440": "reports/latest-preview-pc-1440.png",
+    "sp": "reports/latest-preview-sp.png",
+    "comparison": "reports/latest-preview-comparison-pc.png"
+  }
+}
